@@ -3,22 +3,28 @@ Advanced Computer Programming S.Y 25-26
 
 Name: Luc4s, L4nce D4rell M.
 Section: 2ECE-C
-Date Submitted: September 9, 2025
+Date Submitted: September 16, 2025
+
+Intended Learning Outcomes:
+1. To identify the codes and functions incorporated in the Pandas library
+2. 2. To be able to apply and use the different codes and functions in creating a Python program using a Pandas library 
 
 CONTENTS OF THIS ASSIGNMENT:
 
-NORMALIZATION PROBLEM: 
-Normalization is one of the most basic preprocessing techniques in data analytics. This involves centering and scaling process. Centering means subtracting the data from the mean and scaling means dividing with its standard deviation. Mathematically, normalization can be expressed as:  
-𝑍=𝑋−𝑥 𝜎  
-In Python, element-wise mean and element-wise standard deviation can be obtained by using .mean() and .std() calls.   
-In this problem, create a random 5 x 5 ndarray and store it to variable X. Normalize X. Save your normalized ndarray as X_normalized.npy 
+PROBLEM 1: Save your file as Surname_Pandas-P1.py 
+Using knowledge obtained from the experiment and demonstrations: 
+a. Load the corresponding .csv file into a data frame named cars using pandas 
+b. Display the first five and last five rows of the resulting cars. 
 
-DIVISIBLE BY 3 PROBLEM: 
-Create the following 10 x 10 ndarray. Which are the squares of the first 100 positive integers. From this ndarray, determine all the elements that are divisible by 3. Save the result as div_by_3.npy 
+PROBLEM 2: Save your file as Surname_Pandas-P2.py 
+Using the dataframe cars in problem 1, extract the following information using subsetting, slicing and indexing operations. 
+a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7…) of cars. 
+b. Display the row that contains the ‘Model’ of ‘Mazda RX4’. 
+c. How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have? 
+d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have. 
 
 NOTES: 
-In order to accomplish this Programming Assignment I had to access notes that were coded from the computer lab last week, needed help from some of my classmates since I was late to class last week 
-and weren't able to code other examples that were included in the lesson. Also online references such as videos and extra information from google.
+In order to accomplish this programming I had to access my notes last meeting, learning how to save the file again in the same folder with the given excel file and accessing that file into jupyter notebook. For example Problem 1 a. Printing the first five rows of cars using the function cars.head(). Also needed help from the internet about errors in the code.
 
 HOW TO OPEN/RUN THE FILE:
 1. OPEN THE LINK AND GO TO THE REPOSITORY
